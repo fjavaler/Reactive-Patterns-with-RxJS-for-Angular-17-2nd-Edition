@@ -4,7 +4,7 @@
         <div class="col-6">{{recipes.length}} Results</div>
         <!-- <app-tags-list class="col-6"></app-tags-list> -->
     </div>
-    
+
     <p-dataView #dv [value]="recipes" [paginator]="true" [rows]="9" filterBy="name" layout="grid">
         <ng-template let-recipes pTemplate="gridItem">
             <div class="grid grid-nogutter">
@@ -25,7 +25,7 @@
                     </div>
                     <div class="recipe-grid-item-bottom">
                         <span class="recipe-prep-time">{{recipe?.prepTime}}min</span>
-                        <p-button class="recipe-favourite" icon="pi pi-heart"></p-button>
+                        <p-button class="recipe-favorite" icon="pi pi-heart"></p-button>
                     </div>
                 </div>
                 } @empty {

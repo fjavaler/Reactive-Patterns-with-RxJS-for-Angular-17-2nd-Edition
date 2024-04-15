@@ -1,19 +1,20 @@
 body {
   margin: 0 !important;
-  font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Helvetica, Arial, sans-serif, “Apple Color Emoji”, “Segoe UI Emoji”, “Segoe UI Symbol”;
+  font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Helvetica,
+    Arial, sans-serif, “Apple Color Emoji”, “Segoe UI Emoji”, “Segoe UI Symbol”;
 }
 
 .recipe-rating .p-rating .p-rating-icon.pi-star {
   color: #f71e68;
 }
 
-.recipe-favourite .p-button {
+.recipe-favorite .p-button {
   background: transparent;
   color: #f71e68;
   border: none;
 }
 
-.recipe-favourite .p-button:enabled:active {
+.recipe-favorite .p-button:enabled:active {
   background: transparent;
   color: #f71e68;
   border-color: #f71e68;
@@ -26,21 +27,24 @@ body {
 
 a {
   text-decoration: none;
-  color: #E74C3C;
-  -webkit-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
-  -moz-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
-  -ms-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
-  -o-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
-  transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
+  color: #e74c3c;
+  -webkit-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear,
+    background-color 0.1s linear;
+  -moz-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear,
+    background-color 0.1s linear;
+  -ms-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear,
+    background-color 0.1s linear;
+  -o-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear,
+    background-color 0.1s linear;
+  transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear,
+    background-color 0.1s linear;
 }
-
 
 .header {
   height: 70px;
   background-color: #f71e68;
   top: 0px;
 }
-
 
 .right-zone {
   float: right;
@@ -53,7 +57,6 @@ a {
   vertical-align: middle;
   padding: 15px;
 }
-
 
 .header-menu-item button.p-button {
   background: transparent !important;
@@ -95,7 +98,7 @@ a {
   border-color: #f71e68;
   padding: 2.5px !important;
   float: right;
-  margin-bottom: 30px
+  margin-bottom: 30px;
 }
 
 .rp-filter-button {
@@ -106,7 +109,6 @@ input {
   margin-bottom: 25px;
 }
 
-
 app-recipe-creation form {
   padding: 0px 25px 2px 25px;
   margin-left: 210px;
@@ -114,23 +116,19 @@ app-recipe-creation form {
   border: 1px solid lightgray;
 }
 
-
 .column {
   float: left;
   width: 33%;
 }
 
-
 .column-middle {
   float: left;
   width: 50%;
-
 }
 
 .column-full {
   float: left;
   width: 100%;
-
 }
 
 app-recipe-creation input,
@@ -140,7 +138,7 @@ app-recipe-creation label {
 }
 
 textarea {
-  width: 100%
+  width: 100%;
 }
 
 .recipe-tag {
@@ -151,10 +149,7 @@ textarea {
 h1 {
   margin-left: 210px !important;
   font-size: 1.5rem !important;
-  ;
   margin-top: 10px !important;
-
-
 }
 
 .right-actions-panel {
@@ -181,7 +176,6 @@ right-zone {
   padding: 15px;
 }
 
-
 .header-menu-item button.p-button {
   background: transparent !important;
   border: 1px solid transparent !important;
@@ -201,8 +195,8 @@ app-tags-list {
     padding: 0.1rem 0.8rem;
   }
 
-  p-button.clicked button{
-    background: #f71e68  !important;
+  p-button.clicked button {
+    background: #f71e68 !important;
     border-color: #f71e68 !important;
     color: #fff !important;
   }
