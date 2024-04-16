@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Recipe } from '../model/recipe.model';
 import { environment } from 'src/environments/environment';
-import { BehaviorSubject, Observable, Subject, from, mergeMap, of } from 'rxjs';
+import { BehaviorSubject, Observable } from 'rxjs';
 const BASE_PATH = environment.basePath;
 import { Tag } from '../model/tags';
 // import { Review } from '../model/review.model';
